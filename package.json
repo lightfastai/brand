@@ -1,0 +1,35 @@
+{
+  "name": "brand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sketch": "canvas-sketch sketch-flowfield.js --open",
+    "lightfast": "canvas-sketch sketch-lightfast.js --open",
+    "icon": "canvas-sketch sketch-icon.js --open",
+    "build": "canvas-sketch sketch-flowfield.js --build --dir=output",
+    "build:lightfast": "canvas-sketch sketch-lightfast.js --build --dir=output",
+    "build:icon": "canvas-sketch sketch-icon.js --build --dir=output",
+    "export": "canvas-sketch sketch-flowfield.js --output=output",
+    "export:lightfast": "canvas-sketch sketch-lightfast.js --output=output",
+    "export:icon": "canvas-sketch sketch-icon.js --output=output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightfastai/brand.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightfastai/brand/issues"
+  },
+  "homepage": "https://github.com/lightfastai/brand#readme",
+  "dependencies": {
+    "canvas": "^3.2.1",
+    "canvas-sketch": "^0.7.7",
+    "canvas-sketch-cli": "^1.15.0",
+    "canvas-sketch-util": "^1.10.0",
+    "nice-color-palettes": "^4.0.0"
+  }
+}
